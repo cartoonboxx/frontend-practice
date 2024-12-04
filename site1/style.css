@@ -190,7 +190,7 @@ nav .right-block form {
     padding-left: 0px;
     width: 100%;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
@@ -342,8 +342,8 @@ nav .right-block form {
     align-items: center;
 }
 
-.scrolling-buttons button img {
-    width: 15px;
+.scrolling-buttons button:hover {
+    cursor: pointer;
 }
 
 .scrolling-buttons button:nth-child(1) {
@@ -356,6 +356,98 @@ nav .right-block form {
     border-bottom-right-radius: 17px;
 }
 
-.scrolling-buttons button:nth-child(3) img {
+.scrolling-buttons button:nth-child(3) svg {
     transform: rotate(180deg);
+}
+
+.recent-viewed-block {
+    width: 365px;
+    height: 246px;
+    background-color: white;
+    position: inherit;
+    left: 1000px;
+    top: 780px;
+    box-shadow: 0 0 25px -20px;
+    border-radius: 16px;
+    padding: 10px 10px 10px 30px;
+}
+
+.recent-viewed-block .header {
+    display: flex;
+    align-items: center;
+}
+
+.recent-viewed-block .header h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.users-container .user {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users-container .user svg {
+    border-radius: 50px;
+}
+
+.users-container .user .info-user {
+    font-family: "Poppins", sans-serif;
+    padding-left: 20px;
+    width: 80%;
+}
+
+.users-container .user .info-user h4 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+}
+
+.users-container .user .info-user p {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.valuta-info .countable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.valuta-info .countable h4 {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.valuta-info {
+    width: 20%;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.valuta-info p {
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    color: rgba(16, 195, 82, 1);
+    font-size: 13px;
+    margin-bottom: 0;
 }
