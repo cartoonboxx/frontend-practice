@@ -21,3 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, 20)
 })
+
+function scrollRightContainer() {
+    const slider = document.querySelector('[card__container]')
+    slider.scrollTo({left: slider.scrollLeft + 400, behavior: "smooth"})
+}
+
+function scrollLeftContainer() {
+    const slider = document.querySelector('[card__container]')
+    slider.scrollTo({left: slider.scrollLeft - 400, behavior: "smooth"})
+}
