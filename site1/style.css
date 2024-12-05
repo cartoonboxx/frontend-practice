@@ -618,6 +618,7 @@ tr {
 }
 
 .section-5-index .left-block {
+    padding-left: 3%;
     width: 50%;
 }
 
@@ -634,6 +635,7 @@ tr {
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    
 }
 
 .section-5-index .left-block .black-button {
@@ -642,4 +644,143 @@ tr {
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.create-nft-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.create-nft-block {
+    display: flex;
+    width: 80%;
+    height: 311px;
+    background-color: rgba(20, 20, 22, 1);
+    border-radius: 40px;
+    padding: 40px 60px 40px 60px;
+}
+
+.create-nft-block .left-block {
+    width: 60%;
+}
+
+.create-nft-block .right-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.create-nft-block .left-block p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #b1b1b1;
+    margin-top: 10px;
+}
+
+.create-nft-block .left-block h1 {
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+    /* margin: 0; */
+}
+
+.create-nft-block .left-block .buttons {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+.create-nft-block .left-block .buttons button {
+    padding: 20px 26px 20px 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    border-radius: 12px;
+    border: none;
+}
+
+.create-nft-block .left-block .buttons button:nth-child(1) {
+    background-color: white;
+}
+
+.create-nft-block .left-block .buttons button:nth-child(2) {
+    background-color: transparent;
+    color: white;
+    border: 3px solid white
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    padding-top: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .navigations {
+    width: 80%;
+    height: auto;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+footer .navigations .left-block {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .navigations .left-block a {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+footer .navigations .right-block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .navigations .right-block ul {
+    display: flex;
+    gap: 30px;
+}
+
+
+footer .navigations .right-block ul li {
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #B9B9B9;
+}
+
+footer .after {
+    padding-top: 50px;
+    padding-bottom: 0;
+    border: none;
+}
+
+footer .after p {
+    color: #999999;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
 }
