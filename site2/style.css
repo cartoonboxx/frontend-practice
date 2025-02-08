@@ -78,6 +78,7 @@ nav ul li a {
     width: 100%;
     height: 450px;
     display: flex;
+    margin-bottom: 150px;
 }
 
 .greeting__section .block {
@@ -107,15 +108,22 @@ nav ul li a {
     font-weight: 700;
     border-radius: 50px;
     border: none;
-    margin-top: 40px;
+    gap: 20px;
 }
 
-.block button:nth-child(2) {
+.block .buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.block button:nth-child(1) {
     background-color: #FF7B2B;
     color: white;
 }
 
-.block button:nth-child(3) {
+.block button:nth-child(2) {
     background-color: transparent;
     color: #FF6000;
     border: 2px solid #FF6000;
@@ -128,7 +136,51 @@ nav ul li a {
     align-items: center;
 }
 
+
+
 .best-deliver__section {
+    
+    width: 100%;
     height: 1024px;
     background-color: white;
+}
+
+.our-adds {
+    position: relative;
+    top: -75px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+    height: 150px;
+    width: 85%;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.our-adds .block {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.our-adds .block .text__info {
+    font-family: 'Lexend', serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.our-adds .block .text__info h2 {
+    font-weight: 700;
+    color: #2A2A2A;
+}
+
+.our-adds .block .text__info p {
+    font-weight: 500;
+    color: #939393;
 }
