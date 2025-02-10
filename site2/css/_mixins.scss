@@ -1,0 +1,54 @@
+@import 'root';
+
+@mixin flexColumn() {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin toCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin toCenterHorisontal() {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin toCenterVertical() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin toCenterAndColumn() {
+    @include flexColumn();
+    justify-content: center;
+}
+
+@mixin toCenterHorisontalAndColumn() {
+    @include flexColumn();
+    align-items: center;
+}
+
+
+@mixin colorTextH1() {
+    color: var(--orange);
+
+    span {
+        color: var(--black);
+    }
+}
+
+@mixin InvertColorTextH1() {
+    color: var(--black);
+
+    span {
+        color: var(--orange);
+    }
+}
+
+@mixin uploadImage($image_path) {
+    background-image: url("../images/#{$image_path}");
+    background-size: contain;
+}
