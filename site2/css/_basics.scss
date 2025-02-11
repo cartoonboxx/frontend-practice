@@ -1,0 +1,10 @@
+body {
+    @include toCenter;
+    flex-direction: column;
+    background-color: var(--white);
+}
+
+main {
+    width: 100%;
+    max-width: 1600px;
+}
